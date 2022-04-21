@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-    img {
-        max-width: 350px;
-    }
+  img {
+    max-width: 350px;
+  }
 `;

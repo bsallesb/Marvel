@@ -1,24 +1,23 @@
-import { Banner } from "../../Components/Banner";
-import { Footer } from "../../Components/Footer";
-import { Header } from "../../Components/Header";
-import { Menu } from "../../Components/Menu";
-import { ImgText } from "../../Components/ImgText";
+import { Banner } from "../../components/Banner";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
+import { Menu } from "../../components/Menu";
+import { ImgText } from "../../components/ImgText";
 import { useEffect } from "react";
 import { setTitle } from "../../utils/title";
 
-export const Home:React.FC = () => {
-
+export const Home: React.FC = () => {
   useEffect(() => {
     setTitle();
   }, []);
 
-  return(
-        <>
-          <Header />
-          <Menu />
-          <Banner />
-          <ImgText />
-          <Footer />
-        </>
-    );
-}
+  return (
+    <>
+      <Header />
+      <Menu />
+      <Banner />
+      <ImgText />
+      <Footer />
+    </>
+  );
+};
